@@ -1,0 +1,7 @@
+{"scenario_id": "S1", "expected": "REFUND", "actual": "REFUND", "passed": true, "answer": "REFUND: This order has already been refunded.", "iterations": 5, "tokens": 395}
+{"scenario_id": "S2", "expected": "REFUND", "actual": "REFUND", "passed": true, "answer": "REFUND: This order has already been refunded.", "iterations": 5, "tokens": 395}
+{"scenario_id": "S3", "expected": "ESCALATE", "actual": "ESCALATE", "passed": true, "answer": "ESCALATE: refund above INR 1000 sent to a human lead.", "iterations": 5, "tokens": 376}
+{"scenario_id": "S4", "expected": "DENIED", "actual": "DENIED", "passed": true, "answer": "DENIED: delivery was within 45 minutes.", "iterations": 4, "tokens": 276}
+{"scenario_id": "S5", "expected": "DENIED", "actual": "DENIED", "passed": true, "answer": "DENIED: only completed orders can be refunded.", "iterations": 3, "tokens": 170}
+{"scenario_id": "S6", "expected": "NOT_FOUND", "actual": "NOT_FOUND", "passed": true, "answer": "NOT_FOUND: no such order.", "iterations": 2, "tokens": 58}
+{"scenario_id": "S7", "expected": "FALLBACK_MAX_ITERATIONS", "actual": "FALLBACK_MAX_ITERATIONS", "passed": true, "answer": "Human handoff required: The agent reached its maximum model-call limit.", "iterations": 5, "tokens": 250}

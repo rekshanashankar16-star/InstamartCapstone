@@ -1,0 +1,24 @@
+Few-Shot Classification Evaluation
+
+Evaluated tickets: 147
+Accuracy: 100.00%
+
+Confusion Matrix:
+Predicted Category  billing  delivery  fraud  technical
+Actual Category
+billing                  38         0      0          0
+delivery                  0        36      0          0
+fraud                     0         0     34          0
+technical                 0         0      0         39
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     billing       1.00      1.00      1.00        38
+    delivery       1.00      1.00      1.00        36
+       fraud       1.00      1.00      1.00        34
+   technical       1.00      1.00      1.00        39
+
+    accuracy                           1.00       147
+   macro avg       1.00      1.00      1.00       147
+weighted avg       1.00      1.00      1.00       147
